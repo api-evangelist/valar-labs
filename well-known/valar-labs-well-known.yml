@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: live probe of https://www.valarlabs.com and https://valarlabs.com
+host: https://www.valarlabs.com
+note: Valar Labs publishes no /.well-known/ discovery surface. Every probed path
+  returned 404 on 2026-07-21. Absence recorded as valid data; no WellKnown pointer
+  is wired in apis.yml because no document exists.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 404
+additional_hosts:
+- host: https://valarlabs.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404

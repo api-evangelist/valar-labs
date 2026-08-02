@@ -1,8 +1,32 @@
 aid: valar-labs
 name: Valar Labs
-description: Valar Labs is a company surfaced as a portfolio company of a16z, dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Valar Labs is an AI oncology company building diagnostics that interpret solid
+  tumors from routine pathology slides to predict cancer treatment response. Its
+  proprietary CHAI (Computational Histology Artificial Intelligence) platform
+  analyzes digitized H&E-stained slides — trained on 500,000+ pathologist
+  annotations of tumors and their microenvironment — to help physicians and
+  patients make evidence-based therapy decisions. Products include Vesta Bladder
+  (predicting BCG response in non-muscle-invasive bladder cancer), Vesta Prostate,
+  and Vitara Pancreas ChemoPredict (guiding first-line chemotherapy selection in
+  advanced pancreatic cancer). Founded at the intersection of AI and oncology and
+  backed by a16z and DCVC, Valar Labs delivers results within days without
+  requiring additional tissue. The company operates a physician ordering portal at
+  portal.valarlabs.com and publishes no public developer API, SDK, or
+  machine-readable API specification as of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/valar-labs/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://uploads-ssl.webflow.com/66154efc5c03aac7adbc3095/661560c9df2529f6dc74e788_opengraph.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +36,48 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Oncology
+- Cancer
+- Diagnostics
+- Artificial Intelligence
+- Machine Learning
+- Pathology
+- Digital Pathology
+- Precision Medicine
+- HIPAA
 apis: []
+common:
+- type: DomainSecurity
+  url: security/valar-labs-domain-security.yml
+- type: Website
+  url: https://www.valarlabs.com
+- type: Portal
+  url: https://portal.valarlabs.com
+- type: About
+  url: https://www.valarlabs.com/company
+- type: Blog
+  url: https://www.valarlabs.com/news
+- type: Support
+  url: https://www.valarlabs.com/contact
+- type: PrivacyPolicy
+  url: https://www.valarlabs.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/valarlabs
+- type: Twitter
+  url: https://twitter.com/valarlabs
+- type: LinkedIn
+  url: https://www.linkedin.com/company/valarlabs/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
